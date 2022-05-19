@@ -1,0 +1,7 @@
+alias logs='docker compose -f logs;'
+alias ls='ls -lart --color=always;'
+alias dcd='docker compose down;'
+alias ppup='docker compose up -d --scale default=12;'
+alias ud='sudo bash ~/.scripts/uninstall.sh'
+alias init='bash ~/.scripts/tmux.sh; echo "tmux initialized"'
+alias src='source ~/.zshrc; echo "zsh updated"'
